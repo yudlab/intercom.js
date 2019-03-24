@@ -11,6 +11,7 @@
 		$(function() {
 			if (Intercom.supported) {
 				var title = document.title;
+
 				var $messages       = $('#messages');
 				var $form_broadcast = $('#form-broadcast');
 				var $input_message  = $('#input-message');
@@ -35,10 +36,6 @@
 		</script>
 	</head>
 	<body>
-		<form id="form-broadcast" method="post" action="#">
-			<input type="text" id="input-message">
-			<input type="submit" id="input-broadcast" value="Broadcast">
-		</form>
 		<div id="messages"></div>
 	</body>
 </html>
